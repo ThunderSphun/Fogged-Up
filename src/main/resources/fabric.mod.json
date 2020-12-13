@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "foggingup",
+  "version": "${version}",
+  "name": "FoggingUp",
+  "description": "Adds customizable fog",
+  "authors": [
+    "ThunderSphun"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/foggingup/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.thundersphun.foggingup.FoggingUp"
+    ]
+  },
+  "mixins": [
+    "foggingup.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.*"
+  }
+}

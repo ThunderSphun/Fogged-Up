@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.thundersphun.foggingup.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "RemderSystemMixin",
+    "GameMenuScreenMixin",
+    "TitleScreenMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
